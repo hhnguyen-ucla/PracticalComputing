@@ -1,0 +1,16 @@
+Exercise 7: extract email addresses
+Step 1: replace .+,([\w+\.]+\@[\w+\.]+),.+ with \1,
+Step 2: replace ^[^@]+$ with nothing
+Step 3: replace \n with nothing
+
+Exercise 8: remove polyA tails
+Replace A{8,}\w+ with nothing to remove everything after the A tails
+Result: 
+GCGCGCGCTTAGCTGCT
+GCGTAGCTGTAGCGACTCGGCGT
+
+
+Exercise 9: work on Ch3observations.txt
+Replace (\d+)\s+(\w{3})[\w\,\.]*\s+(\d+)\sat\s(\d+):(\d+)\s+([-\d\.]+)\s+([-\d\.]+).*
+With \3\t\2\.\t\1\t\4\t\5\t\6\t\7
+
