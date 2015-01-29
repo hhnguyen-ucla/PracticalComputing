@@ -1,0 +1,14 @@
+Exercise 4.6.1
+# How many times will 'hello' be printed?
+1. 14
+2. 4
+3. 5
+4. 5
+5. 8
+
+# What does fooXX do?
+foo1(x): return root square of x
+foo2(x,y): return the maximum number of [x,y]
+foo3(x,y,z): return the increasing order of [x,y,z]
+foo4(x): return x!
+foo5(x): return x!
