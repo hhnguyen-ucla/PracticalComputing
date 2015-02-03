@@ -11,3 +11,22 @@ for line in ff:
     if '>' in line
         print (line)
 
+
+myfile=open("out.txt","w")
+myfile.write("hello world")
+myfile.close()
+
+def bradysrevernge(bro)
+    bigbro=bro.upper()
+    print ("you mad, "+bigbro+"?")
+
+	
+def getatcontent(dna):
+    dna=dna.replace('N','')
+    length=len(dna)
+    acount=dna.count('A')
+    tcount=dna.count('T')
+    atcontent=(acount+tcount)/length
+    return round(atcontent,sigfigs)
+	
+getatcontent("AATTGGCG",sigfigs=4)
