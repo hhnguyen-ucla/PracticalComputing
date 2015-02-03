@@ -1,0 +1,5 @@
+myfilename="dna.txt"
+myfile=open(myfilename)
+print (myfile)
+myfile.read()
+seqs.readline()
