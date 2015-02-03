@@ -3,3 +3,11 @@ myfile=open(myfilename)
 print (myfile)
 myfile.read()
 seqs.readline()
+
+#in class exercise
+ff=open("sequences.fasta")
+for line in ff:
+    #print lines with the identifier sequence >
+    if '>' in line
+        print (line)
+
