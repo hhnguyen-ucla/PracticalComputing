@@ -1,15 +1,10 @@
 # calculate AT content for DNA
-# added sigfig argument
 
-def get_at_content(dna,sigfig): 
+def get_at_content(dna):
 
-    # to remove all N's and to change it to uppercase
-    dna = dna.upper().replace('N','')
+    length = len(dna)
+    a_count = dna.count('A')
+    t_count = dna.count('T')
+    at_content = (a_count + t_count) / length
+    return round(at_content)
 
-    length = len(dna) 
-    a_count = dna.count('A') 
-    t_count = dna.count('T') 
-    at_content = (a_count + t_count) / length 
-
-    #round result with input sigfig
-    return round(at_content,sigfig)
